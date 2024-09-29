@@ -11,3 +11,6 @@ module half_subtractor (
     assign BORROW = ~A & B;     // Borrow occurs when A is 0 and B is 1
 
 endmodule
+
+// The Difference (DIFF) is calculated using the XOR operation: DIFF = A ^ B, which gives the result of subtraction.
+// The Borrow occurs when A is 0 and B is 1: BORROW = ~A & B.
